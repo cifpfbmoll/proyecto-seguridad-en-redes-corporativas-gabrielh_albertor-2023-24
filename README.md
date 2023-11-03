@@ -21,3 +21,24 @@ Practicas de la asignatura de Seguridad informática, en este repositorio se rec
 4. Establecer el tiempo de la copia de seguridad.
 5. Reaizar la Copia de Seguridad.
 6. Hacer la recuperacion de esa Copia de seguridad para comprobar que hemos asegurado esos datos correctamente.
+
+## SPRINT 3. Hardening Apache2
+#### El objetivo es subir la seguridad de nuestro servicio de HTTP y así evitar ataques futuros.
+1. Instalación de Apache.
+2. Configuraciones globales.
+3. Ficheros de configuraciones
+4. Configuración de usuarios y grupos
+5. Ocultación de versiones. 
+6. Exposición mínima de módulos.
+7. Creación de virtualhost personalizado.
+8. Configuración múltiple y de contexto: directiva options
+9. Restricción de acceso al contenido: directiva Auth y Require.
+10. Evitar el hotlinking
+11. Configuración HTTPS mediante OpenSSL.
+12. Crea los certificados para que tu virtualHost sea seguro, y obligatoriamente los accesos sean por HTTPS
+13. Activar módulo mod_security.
+14. Realiza un ataque DoS mediante Metasploit (Slowloris) y comprueba que efectivamente el servidor está inaccesible.
+15. Clona e instala las reglas recomendadas OWASP.
+16. Habilitar mod_security
+17. Reglas para detectar SQLInjection
+19. Realiza de nuevo el ataque DoS y comprueba que el servidor está accesible.
