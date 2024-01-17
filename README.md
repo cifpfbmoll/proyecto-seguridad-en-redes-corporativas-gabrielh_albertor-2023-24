@@ -53,3 +53,20 @@ Practicas de la asignatura de Seguridad informática, en este repositorio se rec
 6. Generar tokens 2FA
 7. Habilitar tokens 2FA
 
+## SPRINT 5. Escaneo de vulnerabilidades
+#### En este sprint veremos como podemos analizar las vulnerabilidades de nuestros servicios anteriormente instalados y asegurados.
+1. Crear una máquina con Kali linux
+2. Crear una máquina con metasplotable2
+3. Configurar laboratorio con las 3 máquinas: Ubuntu_server, metasplotable2 y kali linux
+4. Analizar el Cheat Sheet de Nmap
+5. Realizar varios ataques con Nmap
+6. Analizar los resultados de ambas máquinas y compararlos
+
+## SPRINT 6. 
+#### Este sprint veremos como instalar y configurar una máquina virtual con un servicio de FireWall con el software Pfsense
+1. Instalar máquina virtual de pfsense
+2. Crear máquina windows cliente
+3. Configurar red: Pfsense; puente, lan-dmz, lan-empleados - windows; lan_empleados - Pfsense; lan_dmz
+4.  Descargar las reglas de la comunidad
+5.  Aplicar reglas
+6.  Comprobar funcionamiento
