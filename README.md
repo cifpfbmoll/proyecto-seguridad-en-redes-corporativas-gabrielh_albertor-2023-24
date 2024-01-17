@@ -42,3 +42,14 @@ Practicas de la asignatura de Seguridad informática, en este repositorio se rec
 16. Habilitar mod_security
 17. Reglas para detectar SQLInjection
 19. Realiza de nuevo el ataque DoS y comprueba que el servidor está accesible.
+
+## SPTINT 4. Hardening SSL
+#### En este sprint el objetivo es subir el nivel de seguridad del servicio de SSL
+1. Descargar e instalar el servicio de SSL
+2. Limitar permisos al servicio
+3. Configurar directivas de autentificación
+4. Administrar la eejcución del comando sudo
+5. Habilitar el doble factor de autentificación de Google
+6. Generar tokens 2FA
+7. Habilitar tokens 2FA
+
