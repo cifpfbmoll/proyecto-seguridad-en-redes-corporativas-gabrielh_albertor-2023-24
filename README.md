@@ -70,3 +70,13 @@ Practicas de la asignatura de Seguridad informática, en este repositorio se rec
 4.  Descargar las reglas de la comunidad
 5.  Aplicar reglas
 6.  Comprobar funcionamiento
+
+## SPRINT 7.
+#### Aqui veremos la instalación y configuracion del servicio de OpenVPN y suricata en nuestra red empresarial
+1. Instalar Suricata en Pfsense
+2. Configurar Suricata para rechazar ataques con las reglas SNORT
+3. Comprobar el funcionamiento del mismo
+4. Instalar y configurar OpenVPN
+5. Dar de alta a usuarios y crear sus certificados
+6. Comprobar conexion con el VPN mediante certificado y contraseña
+7. Comprobar funcionamiento
