@@ -62,7 +62,7 @@ Practicas de la asignatura de Seguridad informática, en este repositorio se rec
 5. Realizar varios ataques con Nmap
 6. Analizar los resultados de ambas máquinas y compararlos
 
-## SPRINT 6. 
+## SPRINT 6. Escaneo de Vulnerabilidades
 #### Este sprint veremos como instalar y configurar una máquina virtual con un servicio de FireWall con el software Pfsense
 1. Instalar máquina virtual de pfsense
 2. Crear máquina windows cliente
@@ -71,7 +71,7 @@ Practicas de la asignatura de Seguridad informática, en este repositorio se rec
 5.  Aplicar reglas
 6.  Comprobar funcionamiento
 
-## SPRINT 7.
+## SPRINT 7. IDS y VPN con pfSense
 #### Aqui veremos la instalación y configuracion del servicio de OpenVPN y suricata en nuestra red empresarial
 1. Instalar Suricata en Pfsense
 2. Configurar Suricata para rechazar ataques con las reglas SNORT
@@ -80,3 +80,20 @@ Practicas de la asignatura de Seguridad informática, en este repositorio se rec
 5. Dar de alta a usuarios y crear sus certificados
 6. Comprobar conexion con el VPN mediante certificado y contraseña
 7. Comprobar funcionamiento
+
+## SPRINT 8. PROXY INVERSO Y BALANCEADOR DE CARGA
+#### En este sprint aprenderemos a configurar un proxy inverso y un balanceador de carga.
+### PROXY INVERSO
+1. Creamos estructura de ficheros
+2. Activamos módulos
+3. Abrimos servidor web
+4. Configuramos la ruta del servidor proxy en los archivos de configuración
+5. Comprobamos su funcionamiento
+### BALANCEADOR DE CARGA
+1. Creamos estructura de ficheros
+2. Desactivamos el proxy inverso
+3. Activamos módulos
+4. Abrimos servidores web de los miembros del balanceador de carga
+5. Creamos el archivo de configuración llamado " loadbalancer.conf "
+6. Agregamos el " balancer-manager " en la configuración de apache
+7. Comprobamos correcto funcionamiento
